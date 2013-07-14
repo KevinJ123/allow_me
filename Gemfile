@@ -44,6 +44,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development do
+  gem 'thin'
+end
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end

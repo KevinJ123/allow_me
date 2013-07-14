@@ -57,3 +57,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-plus'
 end
+
+# for heroku
+gem 'rails_12factor', group: :production

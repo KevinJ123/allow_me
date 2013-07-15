@@ -60,3 +60,6 @@ end
 
 # for heroku
 gem 'rails_12factor', group: :production
+
+# bcrypt to support has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0'

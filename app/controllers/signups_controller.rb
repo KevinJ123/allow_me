@@ -6,8 +6,6 @@ class SignupsController < ApplicationController
   def create
     @signup = Signup.new(params[:signup])
     
-    binding.pry
-    
     if @signup.save
       redirect_to ''
     else

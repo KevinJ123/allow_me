@@ -1,6 +1,11 @@
 AllowMe::Application.routes.draw do
   
-  resources :parents, only: %i(new create)
+  # singleton resources
+  
+  
+  # collection resources
+  resources :parents,   only: %i(new create)
+  resource  :signups,   only: %i(new create)
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
